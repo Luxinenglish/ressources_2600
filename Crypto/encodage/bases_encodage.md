@@ -82,4 +82,4 @@ echo "MjYwMA==" | base64 -d    # 2600
 | `&#72;&#105;` | Entités HTML |
 | `.... ..` | Morse |
 
-🛠️ **Outil indispensable :** [CyberChef](https://gchq.github.io/CyberChef/) (la baguette magique « Magic » devine souvent l'encodage toute seule).
+📝 [Exercices corrigés](exercices.md)

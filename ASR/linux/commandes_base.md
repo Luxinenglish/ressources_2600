@@ -30,8 +30,8 @@
 ## Chercher
 
 ```bash
-find / -name "flag*" 2>/dev/null     # chercher un fichier par nom
-grep -ri "password" /etc 2>/dev/null # chercher un texte dans des fichiers
+find ~ -name "*.txt"                 # chercher des fichiers par nom
+grep -ri "bash" /etc 2>/dev/null     # chercher un texte dans des fichiers
 which python3                        # où est installé un programme
 ```
 
@@ -77,3 +77,5 @@ sudo commande         # exécuter en tant que root
 | `kill <PID>` | tue un processus |
 | `uname -a` | infos sur le noyau |
 | `df -h` | espace disque |
+
+📝 [Exercices corrigés](exercices.md)

@@ -1,13 +1,12 @@
 # 🖧 ASR — Administration Systèmes & Réseaux
 
-Les fondamentaux pour comprendre (et attaquer / défendre) les machines et les réseaux.
+Cours et exercices corrigés sur Linux et les réseaux, des bases jusqu'au niveau des partiels.
 
-## 🗺️ Par où commencer ?
+## 🗺️ Ordre conseillé
 
-1. [Commandes Linux de base](linux/commandes_base.md) — se déplacer, manipuler des fichiers, droits
-2. [Bases du réseau](reseau/reseau_bases.md) — modèle OSI/TCP-IP, adresses IP, ports
+| # | Cours | Exercices | Niveau |
+|:-:|---|---|:-:|
+| 1 | [Commandes Linux de base](linux/commandes_base.md) | [exercices](linux/exercices.md) | 🟢 🟡 |
+| 2 | [Bases du réseau](reseau/reseau_bases.md) | [exercices](reseau/exercices.md) | 🟢 🟡 |
 
-## 🧪 S'entraîner
-
-- [OverTheWire — Bandit](https://overthewire.org/wargames/bandit/) — apprendre Linux en jouant
-- [TryHackMe](https://tryhackme.com/) — salles guidées (Linux, réseau…)
+💡 Pour les calculs d'adresses, entraînez-vous à la main : c'est ce qui tombe aux partiels !

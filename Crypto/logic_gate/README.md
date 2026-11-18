@@ -73,4 +73,5 @@ print(bin(a >> 2))  # 0b11     décalage à droite (÷4)
 
 ## 📂 Dans ce dossier
 
+- [exercices.md](exercices.md) — exercices corrigés sur les portes logiques
 - [XOR/simple_xor.md](XOR/simple_xor.md) — le XOR et le chiffrement XOR

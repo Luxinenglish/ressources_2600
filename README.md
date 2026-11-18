@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🏴‍☠️ ressources_2600
+# 📚 ressources_2600
 
-**Fiches de cours et ressources pour apprendre la cybersécurité, des bases jusqu'aux CTF.**
+**Cours et exercices corrigés pour réviser, des bases jusqu'aux partiels.**
 
 ![Langue](https://img.shields.io/badge/langue-français-blue?style=for-the-badge)
 ![Niveau](https://img.shields.io/badge/niveau-débutant-brightgreen?style=for-the-badge)
@@ -12,7 +12,7 @@
 [🔐 Crypto](#-crypto) •
 [🐍 Python](#-python) •
 [🖧 ASR](#-asr--systèmes--réseaux) •
-[🛠️ Outils](#️-outils-indispensables) •
+[🧭 Méthode](#-comment-réviser) •
 [🤝 Contribuer](#-contribuer)
 
 </div>
@@ -21,10 +21,12 @@
 
 ## 📖 À propos
 
-Ce dépôt rassemble des **fiches courtes et pratiques** : un concept par fichier, des exemples
-qu'on peut copier-coller, et un encadré **« À retenir »** quand c'est utile.
+Chaque notion a son **sous-dossier** avec :
 
-**Légende des niveaux :** 🟢 débutant · 🟡 intermédiaire · 🔴 avancé
+- 📘 une **fiche de cours** courte : l'essentiel, des exemples, un encadré « À retenir »
+- 📝 un fichier **`exercices.md`** : des exercices progressifs avec **corrigés repliables**
+
+**Niveaux :** 🟢 application directe du cours · 🟡 type partiel · 🔴 pour aller plus loin
 
 ---
 
@@ -33,88 +35,90 @@ qu'on peut copier-coller, et un encadré **« À retenir »** quand c'est utile.
 ```
 ressources_2600/
 ├── 🔐 Crypto/
-│   ├── encodage/
-│   │   └── bases_encodage.md      binaire, hexa, ASCII, Base64
-│   └── logic_gate/
-│       ├── README.md              AND, OR, NOT, XOR, NAND…
-│       └── XOR/
-│           └── simple_xor.md      chiffrement XOR et bruteforce
+│   ├── introduction/              vocabulaire, Kerckhoffs, objectifs
+│   ├── encodage/                  binaire, hexa, ASCII, Base64
+│   ├── logic_gate/                AND, OR, NOT, NAND…
+│   │   └── XOR/                   chiffrement XOR
+│   ├── classique/
+│   │   ├── cesar/                 César, ROT13, analyse fréquentielle
+│   │   └── vigenere/              Vigenère, Kasiski
+│   ├── arithmetique_modulaire/    modulo, PGCD, inverse, puissances
+│   ├── symetrique/                AES, DES, ECB/CBC/GCM
+│   ├── hachage/                   SHA-256, MD5, sel
+│   └── asymetrique/
+│       ├── rsa/                   génération de clés, chiffrement, signature
+│       └── diffie_hellman/        échange de clés, homme du milieu
 ├── 🐍 python/
-│   ├── bases/
-│   │   └── bases_python.md        variables, boucles, fonctions
-│   └── bytes/
-│       └── bytes_encodage.md      bytes, hex, base64 en Python
+│   ├── bases/                     variables, boucles, fonctions
+│   └── bytes/                     bytes, hex, base64 en Python
 └── 🖧 ASR/
-    ├── linux/
-    │   └── commandes_base.md      survivre dans un terminal
-    └── reseau/
-        └── reseau_bases.md        OSI, IP, masques, ports
+    ├── linux/                     fichiers, droits, redirections
+    └── reseau/                    OSI, IP, masques, ports
 ```
+
+Chaque sous-dossier contient **une fiche de cours** 📘 et un **`exercices.md`** 📝.
 
 ---
 
 ## 🔐 Crypto
 
-| Fiche | Description | Niveau |
-|---|---|:-:|
-| [Bases & encodages](Crypto/encodage/bases_encodage.md) | Binaire, hexadécimal, ASCII, Base64 | 🟢 |
-| [Portes logiques](Crypto/logic_gate/README.md) | AND, OR, NOT, XOR et opérateurs bit à bit | 🟢 |
-| [XOR simple](Crypto/logic_gate/XOR/simple_xor.md) | Chiffrer, déchiffrer et casser un XOR | 🟢 |
+| Notion | Cours | Exercices | Niveau |
+|---|:-:|:-:|:-:|
+| Introduction & vocabulaire | [📘](Crypto/introduction/notions_de_base.md) | [📝](Crypto/introduction/exercices.md) | 🟢 🟡 |
+| Bases & encodages | [📘](Crypto/encodage/bases_encodage.md) | [📝](Crypto/encodage/exercices.md) | 🟢 🟡 |
+| Portes logiques | [📘](Crypto/logic_gate/README.md) | [📝](Crypto/logic_gate/exercices.md) | 🟢 🟡 |
+| XOR | [📘](Crypto/logic_gate/XOR/simple_xor.md) | [📝](Crypto/logic_gate/XOR/exercices.md) | 🟢 🟡 🔴 |
+| César | [📘](Crypto/classique/cesar/cesar.md) | [📝](Crypto/classique/cesar/exercices.md) | 🟢 🟡 |
+| Vigenère | [📘](Crypto/classique/vigenere/vigenere.md) | [📝](Crypto/classique/vigenere/exercices.md) | 🟢 🟡 🔴 |
+| Arithmétique modulaire | [📘](Crypto/arithmetique_modulaire/arithmetique_modulaire.md) | [📝](Crypto/arithmetique_modulaire/exercices.md) | 🟢 🟡 🔴 |
+| Chiffrement symétrique | [📘](Crypto/symetrique/chiffrement_symetrique.md) | [📝](Crypto/symetrique/exercices.md) | 🟢 🟡 🔴 |
+| Hachage | [📘](Crypto/hachage/hachage.md) | [📝](Crypto/hachage/exercices.md) | 🟢 🟡 🔴 |
+| RSA | [📘](Crypto/asymetrique/rsa/rsa.md) | [📝](Crypto/asymetrique/rsa/exercices.md) | 🟢 🟡 🔴 |
+| Diffie-Hellman | [📘](Crypto/asymetrique/diffie_hellman/diffie_hellman.md) | [📝](Crypto/asymetrique/diffie_hellman/exercices.md) | 🟢 🟡 🔴 |
+
+📌 Les formules à connaître par cœur sont résumées dans le [README Crypto](Crypto/README.md#-formules-à-connaître-par-cœur).
 
 ## 🐍 Python
 
-| Fiche | Description | Niveau |
-|---|---|:-:|
-| [Les bases](python/bases/bases_python.md) | Variables, conditions, boucles, fonctions, fichiers | 🟢 |
-| [Bytes & encodage](python/bytes/bytes_encodage.md) | `str` vs `bytes`, hex, base64, int ↔ bytes | 🟢 |
+| Notion | Cours | Exercices | Niveau |
+|---|:-:|:-:|:-:|
+| Les bases | [📘](python/bases/bases_python.md) | [📝](python/bases/exercices.md) | 🟢 🟡 |
+| Bytes & encodage | [📘](python/bytes/bytes_encodage.md) | [📝](python/bytes/exercices.md) | 🟢 🟡 🔴 |
 
 ## 🖧 ASR — Systèmes & Réseaux
 
-| Fiche | Description | Niveau |
-|---|---|:-:|
-| [Commandes Linux](ASR/linux/commandes_base.md) | Fichiers, recherche, pipes, droits, processus | 🟢 |
-| [Bases du réseau](ASR/reseau/reseau_bases.md) | Modèle OSI, IPv4, CIDR, TCP/UDP, ports | 🟢 |
+| Notion | Cours | Exercices | Niveau |
+|---|:-:|:-:|:-:|
+| Commandes Linux | [📘](ASR/linux/commandes_base.md) | [📝](ASR/linux/exercices.md) | 🟢 🟡 |
+| Bases du réseau | [📘](ASR/reseau/reseau_bases.md) | [📝](ASR/reseau/exercices.md) | 🟢 🟡 |
 
 ---
 
-## 🧭 Parcours conseillé
+## 🧭 Comment réviser
 
 ```mermaid
 flowchart LR
-    A[Commandes Linux] --> B[Python : bases]
-    B --> C[Bases & encodages]
-    C --> D[Python : bytes]
-    D --> E[Portes logiques]
-    E --> F[XOR simple]
-    A --> G[Bases du réseau]
+    A[📘 Lire le cours] --> B[📝 Exercices 🟢]
+    B --> C{Réussi ?}
+    C -- non --> A
+    C -- oui --> D[📝 Exercices 🟡]
+    D --> E[✅ Prêt pour le partiel]
 ```
 
----
+1. Lire la fiche de cours **en entier**
+2. Faire les exercices **sans regarder le corrigé** (papier + crayon pour les conversions et les calculs d'adresses)
+3. Comparer avec le corrigé, relire le cours sur ce qui a coincé
+4. Refaire les exercices ratés quelques jours plus tard
 
-## 🛠️ Outils indispensables
-
-| Outil | Usage |
-|---|---|
-| [CyberChef](https://gchq.github.io/CyberChef/) | Encodage, décodage, XOR… la baguette magique |
-| [dCode](https://www.dcode.fr/) | Identifier et casser des chiffres classiques |
-| [pwntools](https://docs.pwntools.com/) | Lib Python pour les CTF |
-| [OverTheWire](https://overthewire.org/wargames/) | Wargames pour apprendre Linux et l'exploitation |
-| [CryptoHack](https://cryptohack.org/) | Entraînement à la cryptographie |
-| [Root-Me](https://www.root-me.org/) | Challenges en français, toutes catégories |
+**Ordre conseillé entre les matières :** Linux → Python bases → Crypto (introduction, encodages) → Python bytes → reste de la Crypto, et Réseau en parallèle. L'ordre détaillé en crypto est dans le [README Crypto](Crypto/README.md).
 
 ---
 
 ## 🤝 Contribuer
 
-1. Une fiche = **un concept**, nommée en `snake_case.md`
-2. Commencer par un en-tête `> **Niveau :** … · **Prérequis :** …`
-3. Mettre des exemples **testés** (le code doit marcher en copier-coller)
-4. Ajouter la fiche au tableau de ce README et au README de sa catégorie
-
----
-
-<div align="center">
-
-⚠️ *Ces ressources sont destinées à l'apprentissage. N'utilisez ces techniques que sur des systèmes dont vous avez l'autorisation.*
-
-</div>
+1. Une notion = **un sous-dossier** contenant la fiche de cours + `exercices.md`
+2. Noms de fichiers en `snake_case.md`
+3. En-tête de fiche : `> **Niveau :** … · **Prérequis :** …`
+4. Corrigés dans des blocs `<details>` pour ne pas spoiler
+5. Code **testé** : il doit marcher en copier-coller
+6. Ajouter la notion aux tableaux de ce README et du README de sa matière

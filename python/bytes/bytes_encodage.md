@@ -2,7 +2,7 @@
 
 > **Niveau :** débutant · **Prérequis :** [les bases](../bases/bases_python.md), [bases & encodages](../../Crypto/encodage/bases_encodage.md)
 
-En crypto et en exploitation, on manipule des **octets bruts**, pas du texte.
+En crypto (et dès qu'on lit des fichiers binaires ou des données réseau), on manipule des **octets bruts**, pas du texte.
 Python fait la différence entre les deux :
 
 | Type | Exemple | Contient |
@@ -43,18 +43,16 @@ print(base64.b64encode(b"Hi"))   # b'SGk='
 print(base64.b64decode("SGk="))  # b'Hi'
 ```
 
-## Entiers ↔ bytes (très utilisé en RSA)
+## Entiers ↔ bytes
 
 ```python
 n = int.from_bytes(b"Hi", "big")   # 18537
 print(n.to_bytes(2, "big"))        # b'Hi'
 ```
 
-## Mini-boîte à outils CTF
+## Exemple : XOR de deux bytes
 
 ```python
-import base64
-
 def xor(a: bytes, b: bytes) -> bytes:
     """XOR de deux bytes (la clé est répétée si plus courte)."""
     return bytes(x ^ b[i % len(b)] for i, x in enumerate(a))
@@ -63,4 +61,4 @@ secret = bytes.fromhex("1a0b1c")
 print(xor(secret, b"key"))
 ```
 
-👉 Mise en pratique : [XOR simple](../../Crypto/logic_gate/XOR/simple_xor.md)
+📝 [Exercices corrigés](exercices.md) · 👉 Mise en pratique : [XOR simple](../../Crypto/logic_gate/XOR/simple_xor.md)

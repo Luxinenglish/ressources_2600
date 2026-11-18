@@ -45,13 +45,13 @@ chiffré ⊕ clé = message ⊕ clé ⊕ clé = message ⊕ 0 = message
 
 **Chiffrer et déchiffrer, c'est la même opération.**
 
-Et encore mieux pour un attaquant :
+Autre conséquence :
 
 ```
 chiffré ⊕ message = clé
 ```
 
-➡️ Si on connaît (ou devine) une partie du message clair, on retrouve la clé. C'est l'attaque à **clair connu** (*known plaintext*).
+➡️ Si on connaît une partie du message clair, on retrouve la clé. C'est l'attaque à **clair connu** (*known plaintext*).
 
 ## Chiffrement XOR à clé d'un octet
 
@@ -107,20 +107,11 @@ c = xor(b"Hello 2600", b"KEY")
 print(xor(c, b"KEY"))       # b'Hello 2600'
 ```
 
-💡 **Astuce CTF :** les flags commencent souvent par un format connu (`flag{`, `CTF{`, …).
-`chiffré[:5] ⊕ b"flag{"` donne directement les 5 premiers octets de la clé !
-
 ## Pourquoi c'est important ?
 
 - Le XOR est la brique de base de **presque tous** les chiffrements modernes (AES, ChaCha20, modes CTR/CBC…).
 - Utilisé seul avec une clé courte ou réutilisée → **pas sûr du tout**.
 - Utilisé avec une clé aléatoire, aussi longue que le message et **jamais réutilisée** → c'est le **One-Time Pad**, prouvé incassable.
-
-## Outils pratiques
-
-- [CyberChef](https://gchq.github.io/CyberChef/) — recette « XOR » et « XOR Brute Force »
-- [xortool](https://github.com/hellman/xortool) — devine la longueur de la clé et la clé
-- Python : l'opérateur `^`, `bytes.fromhex()`, `itertools.cycle`
 
 ## ✅ À retenir
 
@@ -128,3 +119,5 @@ print(xor(c, b"KEY"))       # b'Hello 2600'
 - `A ⊕ A = 0` et `A ⊕ 0 = A` → chiffrer = déchiffrer
 - Clé d'1 octet → bruteforce (256 essais)
 - Clair connu → `chiffré ⊕ clair = clé`
+
+📝 [Exercices corrigés](exercices.md)

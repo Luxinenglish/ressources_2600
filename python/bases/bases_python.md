@@ -77,12 +77,20 @@ def est_port_web(port: int) -> bool:
     return port in (80, 443, 8080)
 
 print(est_port_web(443))   # True
+
+def factorielle(n: int) -> int:
+    resultat = 1
+    for i in range(2, n + 1):
+        resultat *= i
+    return resultat
+
+print(factorielle(5))      # 120
 ```
 
 ## Lire / écrire un fichier
 
 ```python
-with open("wordlist.txt") as f:
+with open("notes.txt") as f:
     for ligne in f:
         print(ligne.strip())
 
@@ -90,9 +98,9 @@ with open("sortie.txt", "w") as f:
     f.write("hello\n")
 ```
 
-## Exercice
+## Exemple corrigé
 
-Écris une fonction `compter_voyelles(texte)` qui renvoie le nombre de voyelles dans une chaîne.
+Écrire une fonction `compter_voyelles(texte)` qui renvoie le nombre de voyelles dans une chaîne.
 
 <details>
 <summary>Solution</summary>
@@ -105,4 +113,4 @@ print(compter_voyelles("Hello 2600"))  # 2
 ```
 </details>
 
-➡️ Suite : [Bytes & encodage](../bytes/bytes_encodage.md)
+📝 [Exercices corrigés](exercices.md) · ➡️ Suite : [Bytes & encodage](../bytes/bytes_encodage.md)

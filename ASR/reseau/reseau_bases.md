@@ -80,5 +80,6 @@ traceroute google.com    # chemin des paquets
 ss -tulpn                # ports en écoute sur ma machine
 dig google.com           # requête DNS
 curl -I https://example.com   # en-têtes HTTP
-nmap 192.168.1.0/24      # scanner un réseau (⚠️ uniquement sur VOS réseaux / avec autorisation)
 ```
+
+📝 [Exercices corrigés](exercices.md)
