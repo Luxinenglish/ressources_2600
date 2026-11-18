@@ -1,5 +1,7 @@
 # 📝 Exercices — Chiffrement de César
 
+[🏠 Index](../../../index.md)
+
 > **Cours :** [cesar.md](cesar.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Chiffrer 🟢

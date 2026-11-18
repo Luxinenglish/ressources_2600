@@ -1,5 +1,7 @@
 # 📝 Exercices — Diffie-Hellman
 
+[🏠 Index](../../../index.md)
+
 > **Cours :** [diffie_hellman.md](diffie_hellman.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Public ou secret ? 🟢

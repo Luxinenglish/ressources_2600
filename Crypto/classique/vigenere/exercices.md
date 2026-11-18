@@ -1,5 +1,7 @@
 # 📝 Exercices — Chiffrement de Vigenère
 
+[🏠 Index](../../../index.md)
+
 > **Cours :** [vigenere.md](vigenere.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Chiffrer 🟢

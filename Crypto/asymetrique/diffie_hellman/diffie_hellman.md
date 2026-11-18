@@ -1,5 +1,7 @@
 # 🤝 Échange de clés Diffie-Hellman
 
+[🏠 Index](../../../index.md)
+
 > **Niveau :** intermédiaire · **Prérequis :** [arithmétique modulaire](../../arithmetique_modulaire/arithmetique_modulaire.md) (exponentiation)
 
 ## Le problème

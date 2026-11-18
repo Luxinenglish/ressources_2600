@@ -1,5 +1,7 @@
 # 📝 Exercices — RSA
 
+[🏠 Index](../../../index.md)
+
 > **Cours :** [rsa.md](rsa.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Quelle clé ? 🟢

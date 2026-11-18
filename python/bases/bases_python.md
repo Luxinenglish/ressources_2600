@@ -1,5 +1,7 @@
 # 🐍 Python — Les bases
 
+[🏠 Index](../../index.md)
+
 > **Niveau :** débutant
 
 ## Lancer du Python

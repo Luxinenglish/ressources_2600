@@ -1,5 +1,7 @@
 # 📝 Exercices — XOR
 
+[🏠 Index](../../../index.md)
+
 > **Cours :** [simple_xor.md](simple_xor.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Calculs 🟢

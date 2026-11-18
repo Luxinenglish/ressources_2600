@@ -1,5 +1,7 @@
 # 📝 Exercices — Fonctions de hachage
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [hachage.md](hachage.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Vrai ou faux ? 🟢

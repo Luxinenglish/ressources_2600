@@ -1,5 +1,7 @@
 # 📝 Exercices — Portes logiques
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [README.md](README.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Table de vérité 🟢

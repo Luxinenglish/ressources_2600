@@ -1,5 +1,7 @@
 # 🐍 Python — Bytes & encodage
 
+[🏠 Index](../../index.md)
+
 > **Niveau :** débutant · **Prérequis :** [les bases](../bases/bases_python.md), [bases & encodages](../../Crypto/encodage/bases_encodage.md)
 
 En crypto (et dès qu'on lit des fichiers binaires ou des données réseau), on manipule des **octets bruts**, pas du texte.

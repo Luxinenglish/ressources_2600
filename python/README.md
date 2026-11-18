@@ -1,5 +1,7 @@
 # 🐍 Python
 
+[🏠 Index](../index.md)
+
 Cours et exercices corrigés de Python, des bases jusqu'au niveau des partiels.
 
 ## 🗺️ Ordre conseillé

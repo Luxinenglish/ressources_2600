@@ -1,5 +1,7 @@
 # 🔀 XOR simple
 
+[🏠 Index](../../../index.md)
+
 > **Niveau :** débutant · **Prérequis :** [portes logiques](../README.md), [binaire & hexadécimal](../../encodage/bases_encodage.md)
 
 ## C'est quoi le XOR ?

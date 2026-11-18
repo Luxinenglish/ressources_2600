@@ -1,5 +1,7 @@
 # 📝 Exercices — Commandes Linux
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [commandes_base.md](commandes_base.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Arborescence 🟢

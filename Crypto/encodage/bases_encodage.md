@@ -1,5 +1,7 @@
 # 🔢 Bases & encodages
 
+[🏠 Index](../../index.md)
+
 > **Niveau :** débutant
 
 ⚠️ **Encodage ≠ chiffrement.** Un encodage change la *représentation* des données, sans clé.

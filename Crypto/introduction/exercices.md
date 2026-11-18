@@ -1,5 +1,7 @@
 # 📝 Exercices — Introduction à la cryptographie
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [notions_de_base.md](notions_de_base.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Vocabulaire 🟢

@@ -1,5 +1,7 @@
 # 🔐 Crypto
 
+[🏠 Index](../index.md)
+
 Cours et exercices corrigés de cryptographie, des bases jusqu'au niveau des partiels.
 
 ## 🗺️ Ordre conseillé

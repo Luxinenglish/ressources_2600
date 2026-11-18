@@ -1,5 +1,7 @@
 # 📝 Exercices — Arithmétique modulaire
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [arithmetique_modulaire.md](arithmetique_modulaire.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Modulo 🟢

@@ -1,5 +1,7 @@
 # #️⃣ Fonctions de hachage
 
+[🏠 Index](../../index.md)
+
 > **Niveau :** débutant · **Prérequis :** [bases & encodages](../encodage/bases_encodage.md)
 
 ## Principe

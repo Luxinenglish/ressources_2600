@@ -1,5 +1,7 @@
 # 🔒 Chiffrement symétrique
 
+[🏠 Index](../../index.md)
+
 > **Niveau :** débutant → intermédiaire · **Prérequis :** [introduction](../introduction/notions_de_base.md), [XOR](../logic_gate/XOR/simple_xor.md)
 
 ## Principe

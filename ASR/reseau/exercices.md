@@ -1,5 +1,7 @@
 # 📝 Exercices — Bases du réseau
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [reseau_bases.md](reseau_bases.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Couches OSI 🟢

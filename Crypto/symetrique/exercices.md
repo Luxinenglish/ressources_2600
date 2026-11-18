@@ -1,5 +1,7 @@
 # 📝 Exercices — Chiffrement symétrique
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [chiffrement_symetrique.md](chiffrement_symetrique.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Questions de cours 🟢

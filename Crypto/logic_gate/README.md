@@ -1,5 +1,7 @@
 # 🔌 Portes logiques
 
+[🏠 Index](../../index.md)
+
 > **Niveau :** débutant · **Prérequis :** savoir ce qu'est un bit (`0` ou `1`)
 
 Une **porte logique** prend un ou plusieurs bits en entrée et renvoie un bit en sortie.

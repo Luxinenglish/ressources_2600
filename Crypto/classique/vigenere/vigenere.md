@@ -1,5 +1,7 @@
 # 🔑 Chiffrement de Vigenère
 
+[🏠 Index](../../../index.md)
+
 > **Niveau :** débutant → intermédiaire · **Prérequis :** [César](../cesar/cesar.md)
 
 ## Principe

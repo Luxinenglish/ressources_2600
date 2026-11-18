@@ -1,5 +1,7 @@
 # 🐧 Commandes Linux de base
 
+[🏠 Index](../../index.md)
+
 > **Niveau :** débutant
 
 💡 Bloqué sur une commande ? `man <commande>` ou `<commande> --help`.

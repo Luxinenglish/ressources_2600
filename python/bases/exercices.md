@@ -1,5 +1,7 @@
 # 📝 Exercices — Python : les bases
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [bases_python.md](bases_python.md) · Les corrigés sont dans les blocs repliables ▶
 > Essayez **vraiment** avant de regarder la solution 😉
 

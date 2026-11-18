@@ -1,5 +1,7 @@
 # ➗ Arithmétique modulaire
 
+[🏠 Index](../../index.md)
+
 > **Niveau :** débutant → intermédiaire · **Prérequis :** division euclidienne
 
 C'est **la** boîte à outils mathématique de la crypto (César, Vigenère, RSA, Diffie-Hellman…).

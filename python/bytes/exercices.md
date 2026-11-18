@@ -1,5 +1,7 @@
 # 📝 Exercices — Python : bytes & encodage
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [bytes_encodage.md](bytes_encodage.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Prédire le résultat 🟢

@@ -1,5 +1,7 @@
 # 📝 Exercices — Bases & encodages
 
+[🏠 Index](../../index.md)
+
 > **Cours :** [bases_encodage.md](bases_encodage.md) · Les corrigés sont dans les blocs repliables ▶
 
 ## Exercice 1 — Vers le décimal 🟢
